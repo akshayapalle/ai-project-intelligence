@@ -6,7 +6,7 @@ connection = psycopg.connect(
     port=5432,
     dbname="shopsphere",
     user="postgres",
-    password="Postgres5432"
+    password="x"
 )
 
 cursor = connection.cursor()
